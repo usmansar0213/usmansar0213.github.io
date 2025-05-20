@@ -1,0 +1,13 @@
+.box-grid ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: disc;
+  margin-left: 2rem;
+  column-gap: 3rem;
+}
+
+.box-grid li {
+  break-inside: avoid;
+  padding: 0.3rem 0;
+}
