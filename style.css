@@ -79,10 +79,9 @@ body {
 
 /* Gambar di bagian kanan hero */
 .hero-image {
-  width: 100px; /* Perbesar 2x */
-  max-width: 100%; /* Responsif */
+  width: 100%;
+  max-width: 300px;
   height: auto;
-  max-height: 600px; /* Batasi agar tidak terlalu tinggi */
   border-radius: 16px;
   box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
   filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.3));
