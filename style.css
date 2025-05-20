@@ -11,18 +11,20 @@
   break-inside: avoid;
   padding: 0.3rem 0;
 }
-.header-flex {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  background-color: #1f2d5a;
-  color: white;
-  padding: 1.5rem;
-}
 
 .logo-icon {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   border: 2px solid white;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+  background-color: #1f2d5a;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: left;
 }
